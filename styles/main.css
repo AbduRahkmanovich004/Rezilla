@@ -1,0 +1,293 @@
+/* Universal codes start */
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Light.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Regular.ttf) format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Medium.ttf) format("truetype");
+  font-weight: 600;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins";
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.unsupported-device {
+  display: none;
+}
+
+@keyframes Animate {
+  10% {
+    transform: translateY(-5%);
+  }
+  30% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-5%);
+  }
+  70% {
+    transform: translateY(0%);
+  }
+  90% {
+    transform: translateY(-5%);
+  }
+}
+@keyframes cercleText {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Universal codes end */
+/* Header start */
+/* Header end */
+/* assisting section start */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .forText {
+  width: 50%;
+  margin-right: 43px;
+  padding: 20px;
+}
+.container .forText .public_h5 {
+  color: #4361EE;
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.container .forText .public_h2 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 47px;
+  margin-bottom: 30px;
+  display: flex;
+  letter-spacing: 3px;
+}
+.container .forText .bnt {
+  margin-bottom: 40px;
+}
+.container .forText .row {
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+.container .forText .public_p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #808080;
+}
+.container .forText .textImg {
+  display: flex;
+  padding: 30px;
+  color: #FFFFFF;
+  border-radius: 30px;
+  box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.06);
+  gap: 25px;
+  width: 400px;
+  margin-bottom: 30px;
+}
+.container .forImg {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.container .forImg .larg1 {
+  margin-top: 150px;
+}
+.container .forImg .larg1 img {
+  box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.15);
+  width: 280px;
+  height: 500px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.container .forImg .larg2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.container .forImg .larg2 .cercleText {
+  box-shadow: none;
+  height: 206px;
+  position: absolute;
+  z-index: 1;
+  bottom: 470px;
+  right: 180px;
+  animation-name: cercleText;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.container .forImg .larg2 img {
+  border-radius: 30px;
+  box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.15);
+}
+.container .forImg .larg2 img:nth-child(1) {
+  width: 277px;
+  height: 280px;
+}
+.container .forImg .larg2 img:nth-child(2) {
+  margin-top: 20px;
+  width: 277px;
+  height: 180px;
+}
+.container .forImg .larg2 .cercleNuqta {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0) 100%);
+  opacity: 0.5;
+  transform: rotate(30deg);
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  right: 150px;
+}
+
+/* assisting section end */
+/* Checkout section start */
+/* Checkout section end */
+/* services section start */
+.sevices {
+  background: #D4D4D4;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sevices .container {
+  gap: 80px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 752px;
+}
+.sevices .container .forText {
+  width: 740px;
+  height: 28px;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.4px;
+  line-height: 29px;
+}
+.sevices .container .forText p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39.8px;
+  line-height: 47px;
+}
+.sevices .container .forBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
+  gap: 50px;
+  margin-top: 50px;
+}
+.sevices .container .forBox .divbox {
+  width: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  flex-direction: column;
+  padding: 60px;
+  box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.03);
+}
+.sevices .container .forBox .divbox:hover {
+  box-shadow: 4px 20px 60px rgba(16, 231, 31, 0.03);
+  background-color: #4361EE;
+  display: flex;
+  animation-name: Animate;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.sevices .container .forBox .divbox .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 10px 18px #000;
+}
+.sevices .container .forBox .divbox p {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.4px;
+  line-height: 29px;
+}
+.sevices .container .forBox .divbox span {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* services section end */
+/* properties section start */
+/*properties section end */
+/* experts section start */
+/* experts section end */
+/* trending section start */
+/* trending section end */
+/* Testimonials section start */
+/* Testimonials section end */
+/* Footer start */
+/* Footer end */
+/* Small screens and laptops (@media) start *//*# sourceMappingURL=main.css.map */
