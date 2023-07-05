@@ -665,6 +665,66 @@ header .home .container .marqueePart marquee img {
 /* properties section start */
 /*properties section end */
 /* experts section start */
+.experts .container{
+  position: relative;
+  flex-wrap: wrap;
+  margin-top: 210px;
+}
+.experts .container .text{
+  width: 626px;
+  height: 72px;
+  margin-bottom: 100px;
+}
+.experts .container .text p{
+  color: var(--colour-1, #4361EE);
+  text-align: center;
+  font-size: 19.4px;
+  font-weight: 500;
+  letter-spacing: 2.91px;
+  text-transform: uppercase;
+  
+}
+.experts .container .text h2{
+  text-align: center;
+  font-size: 39.8px;
+  line-height: 47px;
+  color: #2B2B2B;
+}
+.experts .container .GROUPS{
+
+  display: flex;
+  width: 1013px;
+  justify-content: space-between;
+  margin-bottom: 180px;
+}
+.experts .container .GROUPS .group1 h3{
+  color: #0B090A;
+  text-align: center;
+  font-size: 27.6px;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.experts .container .GROUPS .group1 a{
+  color: var(--colour-1, #4361EE);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500px;
+}
+.experts .container .ellipse14{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-30px);
+  /* flex-shrink: 0; */
+  border-radius: 100%;
+  /* opacity: 0.5; */
+  background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0.00) 100%);
+  left: 1097px;
+  top: -150.4px;
+}
+
+
 /* experts section end */
 /* trending section start */
 /* trending section end */
